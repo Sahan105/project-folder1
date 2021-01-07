@@ -1,0 +1,28 @@
+
+/* login-page css start */
+#form{
+    background-color: #1a7c53;
+    padding: 5% 3%;
+    min-height: calc(100vh -190px);
+}
+#login{
+    border-radius: 100px 0 100px 0;
+    padding:3% 5%;
+    position: relative;
+    left: 30%;
+    border: 2px solid #f1f1f1;
+    -webkit-box-shadow: 1px 4px 21px 11px rgba(0,0,0,0.7); 
+    box-shadow: 1px 4px 21px 11px rgba(0,0,0,0.7);
+}
+/* login-page css end */
+
+/* register page css start */
+/* a-tag button style */
+#link{
+    background-color:  #1a7c53;
+    border: none;
+  
+    font-size: 20px;
+}
+
+/* regiter page css end */
