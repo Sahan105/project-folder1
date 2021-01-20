@@ -7,7 +7,7 @@
   const mongoose = require('mongoose');
 
 //  database connection
- const url ='mongodb://localhost/foodKa';
+ const url ='mongodb+srv://foodka:76GouuVM4netpi1j@cluster0.iaosj.mongodb.net/foodKa?retryWrites=true&w=majority';
 mongoose.connect(url,{useNewUrlParser:true,useUnifiedTopology:true}) 
 const connection = mongoose.connection;
 connection.once('open',()=>{
